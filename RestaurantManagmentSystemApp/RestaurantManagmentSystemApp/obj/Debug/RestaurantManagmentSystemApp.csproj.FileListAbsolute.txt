@@ -1,6 +1,9 @@
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\bin\Debug\RestaurantManagmentSystemApp.exe.config
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\bin\Debug\RestaurantManagmentSystemApp.exe
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\bin\Debug\RestaurantManagmentSystemApp.pdb
+D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.csprojAssemblyReference.cache
+D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Login.resources
+D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.MDI.resources
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.SampleForm.resources
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Properties.Resources.resources
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Sample2.resources
@@ -8,3 +11,4 @@ D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\o
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.csproj.CoreCompileInputs.cache
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.exe
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.pdb
+D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Settings.resources

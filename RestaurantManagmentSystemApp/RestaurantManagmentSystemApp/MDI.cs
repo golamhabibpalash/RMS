@@ -24,7 +24,8 @@ namespace RestaurantManagmentSystemApp
 
         private void MDI_Load(object sender, EventArgs e)
         {
-
+            Login ls = new Login();
+            MainClass.showWindow(ls,MDI.ActiveForm);
         }
     }
 }
