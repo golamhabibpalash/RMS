@@ -12,3 +12,5 @@ D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\o
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.exe
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.pdb
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Settings.resources
+D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Dashboard.resources
+D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Roles.resources

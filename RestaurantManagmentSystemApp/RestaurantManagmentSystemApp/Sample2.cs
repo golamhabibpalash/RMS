@@ -17,5 +17,10 @@ namespace RestaurantManagmentSystemApp
             InitializeComponent();
         }
 
+        private void backPicBox_Click(object sender, EventArgs e)
+        {
+            Dashboard db = new Dashboard();
+            MainClass.showWindow(db,MDI.ActiveForm);
+        }
     }
 }

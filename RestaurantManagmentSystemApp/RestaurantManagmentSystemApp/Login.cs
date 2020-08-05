@@ -16,5 +16,11 @@ namespace RestaurantManagmentSystemApp
         {
             InitializeComponent();
         }
+
+        private void loginBtn_Click(object sender, EventArgs e)
+        {
+            Dashboard db = new Dashboard();
+            MainClass.showWindow(db, this, MDI.ActiveForm);
+        }
     }
 }

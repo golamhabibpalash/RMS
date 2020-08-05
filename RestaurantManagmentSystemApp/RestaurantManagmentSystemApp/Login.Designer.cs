@@ -45,6 +45,7 @@
             this.leftPanel.Controls.Add(this.label2);
             this.leftPanel.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.leftPanel.Size = new System.Drawing.Size(250, 505);
+            this.leftPanel.Controls.SetChildIndex(this.leftTop, 0);
             this.leftPanel.Controls.SetChildIndex(this.label2, 0);
             this.leftPanel.Controls.SetChildIndex(this.label3, 0);
             this.leftPanel.Controls.SetChildIndex(this.uNameTBox, 0);
@@ -97,6 +98,7 @@
             this.loginBtn.TabIndex = 2;
             this.loginBtn.Text = "LOGIN";
             this.loginBtn.UseVisualStyleBackColor = true;
+            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
             // 
             // Login
             // 

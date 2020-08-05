@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.leftPanel = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.leftTop = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.rightPanel = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.leftPanel.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.leftTop.SuspendLayout();
             this.rightPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // leftPanel
             // 
             this.leftPanel.BackColor = System.Drawing.Color.SteelBlue;
-            this.leftPanel.Controls.Add(this.panel1);
+            this.leftPanel.Controls.Add(this.leftTop);
             this.leftPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.leftPanel.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.leftPanel.ForeColor = System.Drawing.Color.White;
@@ -50,14 +50,14 @@
             this.leftPanel.Size = new System.Drawing.Size(250, 633);
             this.leftPanel.TabIndex = 0;
             // 
-            // panel1
+            // leftTop
             // 
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(250, 45);
-            this.panel1.TabIndex = 0;
+            this.leftTop.Controls.Add(this.label1);
+            this.leftTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.leftTop.Location = new System.Drawing.Point(0, 0);
+            this.leftTop.Name = "leftTop";
+            this.leftTop.Size = new System.Drawing.Size(250, 45);
+            this.leftTop.TabIndex = 0;
             // 
             // label1
             // 
@@ -97,8 +97,8 @@
             this.Controls.Add(this.leftPanel);
             this.Name = "SampleForm";
             this.leftPanel.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.leftTop.ResumeLayout(false);
+            this.leftTop.PerformLayout();
             this.rightPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -107,7 +107,7 @@
         #endregion
 
         public System.Windows.Forms.Panel leftPanel;
-        private System.Windows.Forms.Panel panel1;
+        public System.Windows.Forms.Panel leftTop;
         public System.Windows.Forms.Panel rightPanel;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;

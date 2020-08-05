@@ -37,24 +37,33 @@
             this.addBtn = new System.Windows.Forms.Button();
             this.ssearchGroupBox = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.backPicBox = new System.Windows.Forms.PictureBox();
             this.leftPanel.SuspendLayout();
+            this.leftTop.SuspendLayout();
             this.rightPanel.SuspendLayout();
             this.panel4.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.ssearchGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.backPicBox)).BeginInit();
             this.SuspendLayout();
             // 
             // leftPanel
             // 
-            this.leftPanel.Controls.Add(this.panel5);
             this.leftPanel.Controls.Add(this.panel3);
+            this.leftPanel.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.leftPanel.Size = new System.Drawing.Size(250, 450);
+            this.leftPanel.Controls.SetChildIndex(this.leftTop, 0);
             this.leftPanel.Controls.SetChildIndex(this.panel3, 0);
-            this.leftPanel.Controls.SetChildIndex(this.panel5, 0);
+            // 
+            // leftTop
+            // 
+            this.leftTop.Controls.Add(this.backPicBox);
+            this.leftTop.Controls.SetChildIndex(this.backPicBox, 0);
             // 
             // rightPanel
             // 
             this.rightPanel.Controls.Add(this.panel4);
+            this.rightPanel.Size = new System.Drawing.Size(550, 450);
             this.rightPanel.Controls.SetChildIndex(this.panel4, 0);
             // 
             // panel3
@@ -165,12 +174,18 @@
             this.textBox1.Size = new System.Drawing.Size(98, 20);
             this.textBox1.TabIndex = 0;
             // 
-            // panel5
+            // backPicBox
             // 
-            this.panel5.Location = new System.Drawing.Point(107, 304);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(104, 100);
-            this.panel5.TabIndex = 1;
+            this.backPicBox.BackColor = System.Drawing.Color.Transparent;
+            this.backPicBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.backPicBox.Image = global::RestaurantManagmentSystemApp.Properties.Resources.backButton;
+            this.backPicBox.Location = new System.Drawing.Point(1, 3);
+            this.backPicBox.Name = "backPicBox";
+            this.backPicBox.Size = new System.Drawing.Size(40, 39);
+            this.backPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.backPicBox.TabIndex = 1;
+            this.backPicBox.TabStop = false;
+            this.backPicBox.Click += new System.EventHandler(this.backPicBox_Click);
             // 
             // Sample2
             // 
@@ -179,20 +194,21 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "Sample2";
             this.leftPanel.ResumeLayout(false);
+            this.leftTop.ResumeLayout(false);
+            this.leftTop.PerformLayout();
             this.rightPanel.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ssearchGroupBox.ResumeLayout(false);
             this.ssearchGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.backPicBox)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
+        public System.Windows.Forms.Panel panel3;
+        public System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button deleteBtn;
         private System.Windows.Forms.Button saveBtn;
@@ -200,5 +216,6 @@
         private System.Windows.Forms.Button addBtn;
         private System.Windows.Forms.GroupBox ssearchGroupBox;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.PictureBox backPicBox;
     }
 }
