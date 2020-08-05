@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
+using System.IO;
 
 namespace RestaurantManagmentSystemApp
 {
@@ -25,7 +26,7 @@ namespace RestaurantManagmentSystemApp
 
         private void MDI_Load(object sender, EventArgs e)
         {
-            if (ConfigurationManager.ConnectionStrings["con"].ConnectionString=="")
+            if (!File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)+"\\rms_connect"))
             {
                 Settings obj = new Settings();
                 MainClass.showWindow(obj,this);

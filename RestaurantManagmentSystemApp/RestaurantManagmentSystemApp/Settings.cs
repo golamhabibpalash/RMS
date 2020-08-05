@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
 using System.Xml;
+using System.IO;
 
 namespace RestaurantManagmentSystemApp
 {
@@ -89,7 +90,7 @@ namespace RestaurantManagmentSystemApp
                 else
                 {
                     connection = "data source="+serverTbox.Text+";Initial catalog="+databaseTBox.Text+";integrated security=true;multipleactiveresultsets=true;";
-                    updateConfigFile(connection);
+                    saveConnection();
                     DialogResult dr = MessageBox.Show("Setting Saved Successfully");
                     if (dr==DialogResult.OK)
                     {
@@ -121,6 +122,12 @@ namespace RestaurantManagmentSystemApp
                     }
                 }
             }
+        }
+
+        private void saveConnection()
+        {
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\rms_connect";
+            File.WriteAllText(path, connection);
         }
 
         private void updateConfigFile(string con)

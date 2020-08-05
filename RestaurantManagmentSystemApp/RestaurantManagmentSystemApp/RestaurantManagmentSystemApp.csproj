@@ -48,6 +48,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +72,12 @@
     </Compile>
     <Compile Include="MDI.Designer.cs">
       <DependentUpon>MDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Roles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Roles.Designer.cs">
+      <DependentUpon>Roles.cs</DependentUpon>
     </Compile>
     <Compile Include="Sample.cs">
       <SubType>Form</SubType>
@@ -81,6 +99,15 @@
     <Compile Include="Settings.Designer.cs">
       <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
+    <Compile Include="Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users.Designer.cs">
+      <DependentUpon>Users.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
