@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace RestaurantManagmentSystemApp
 {
@@ -24,8 +25,18 @@ namespace RestaurantManagmentSystemApp
 
         private void MDI_Load(object sender, EventArgs e)
         {
-            Login ls = new Login();
-            MainClass.showWindow(ls,MDI.ActiveForm);
+            if (ConfigurationManager.ConnectionStrings["con"].ConnectionString=="")
+            {
+                Settings obj = new Settings();
+                MainClass.showWindow(obj,this);
+            }
+
+            else
+            {
+                Login ls = new Login();
+                MainClass.showWindow(ls, MDI.ActiveForm);
+            }
+            
         }
     }
 }

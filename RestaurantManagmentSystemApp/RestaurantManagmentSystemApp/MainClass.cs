@@ -12,16 +12,28 @@ namespace RestaurantManagmentSystemApp
         public static void showWindow(Form openWin, Form closeWin, Form MDI)
         {
             closeWin.Close();
-            openWin.WindowState = FormWindowState.Maximized;
             openWin.MdiParent = MDI;
             openWin.Show();
+            openWin.WindowState = FormWindowState.Maximized;
         }
         public static void showWindow(Form openWin,Form MDI)
         {
 
-            openWin.WindowState = FormWindowState.Maximized;
             openWin.MdiParent = MDI;
             openWin.Show();
+            openWin.WindowState = FormWindowState.Maximized;
+        }
+        public static void showMessage(string msg, string type)
+        {
+            if (type=="success")
+            {
+                MessageBox.Show(msg,"Success",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            }
+            else if (type=="error")
+            {
+                MessageBox.Show(msg, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
     }
 }
