@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace RestaurantManagmentSystemApp
 {
-    public partial class Form1 : Form
+    public partial class Sample2 :SampleForm
     {
-        public Form1()
+        public Sample2()
         {
             InitializeComponent();
         }
+
     }
 }
