@@ -116,6 +116,7 @@
             this.deleteBtn.TabIndex = 3;
             this.deleteBtn.Text = "&DELETE";
             this.deleteBtn.UseVisualStyleBackColor = true;
+            this.deleteBtn.Click += new System.EventHandler(this.deleteBtn_Click);
             // 
             // saveBtn
             // 
@@ -129,6 +130,7 @@
             this.saveBtn.TabIndex = 2;
             this.saveBtn.Text = "&SAVE";
             this.saveBtn.UseVisualStyleBackColor = true;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
             // editBtn
             // 
@@ -142,6 +144,7 @@
             this.editBtn.TabIndex = 1;
             this.editBtn.Text = "&EDIT";
             this.editBtn.UseVisualStyleBackColor = true;
+            this.editBtn.Click += new System.EventHandler(this.editBtn_Click);
             // 
             // addBtn
             // 
@@ -155,6 +158,7 @@
             this.addBtn.TabIndex = 0;
             this.addBtn.Text = "&ADD";
             this.addBtn.UseVisualStyleBackColor = true;
+            this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
             // 
             // ssearchGroupBox
             // 
@@ -165,6 +169,7 @@
             this.ssearchGroupBox.TabIndex = 4;
             this.ssearchGroupBox.TabStop = false;
             this.ssearchGroupBox.Text = "Sea&rch";
+            this.ssearchGroupBox.Enter += new System.EventHandler(this.ssearchGroupBox_Enter);
             // 
             // textBox1
             // 
@@ -173,6 +178,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(98, 20);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // backPicBox
             // 

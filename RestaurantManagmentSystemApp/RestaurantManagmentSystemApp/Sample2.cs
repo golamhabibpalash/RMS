@@ -22,5 +22,35 @@ namespace RestaurantManagmentSystemApp
             Dashboard db = new Dashboard();
             MainClass.showWindow(db,MDI.ActiveForm);
         }
+
+        public virtual void addBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public virtual void editBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public virtual void saveBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public virtual void deleteBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public virtual void ssearchGroupBox_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        public virtual void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

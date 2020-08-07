@@ -35,5 +35,121 @@ namespace RestaurantManagmentSystemApp
             }
             
         }
+        public static void resetEnable(Panel p)
+        {
+            foreach (Control c in p.Controls)
+            {
+                if (c is TextBox)
+                {
+                    TextBox tb = (TextBox)c;
+                    tb.Text = "";
+                    tb.Enabled = true;
+                }
+                if (c is ComboBox)
+                {
+                    ComboBox cb = (ComboBox)c;
+                    cb.SelectedIndex = -1;
+                    cb.Enabled = true;
+                }
+                if (c is CheckBox)
+                {
+                    CheckBox cb = (CheckBox)c;
+                    cb.Checked = false;
+                    cb.Enabled = true;
+                }
+                if (c is RadioButton)
+                {
+                    RadioButton rb= (RadioButton)c;
+                    rb.Checked = false;
+                    rb.Enabled = true;
+                }
+
+            }
+        }
+        public static void resetDisable(Panel p)
+        {
+            foreach (Control c in p.Controls)
+            {
+                if (c is TextBox)
+                {
+                    TextBox tb = (TextBox)c;
+                    tb.Text = "";
+                    tb.Enabled = false;
+                }
+                if (c is ComboBox)
+                {
+                    ComboBox cb = (ComboBox)c;
+                    cb.SelectedIndex = -1;
+                    cb.Enabled = false;
+                }
+                if (c is CheckBox)
+                {
+                    CheckBox cb = (CheckBox)c;
+                    cb.Checked = false;
+                    cb.Enabled = false;
+                }
+                if (c is RadioButton)
+                {
+                    RadioButton rb = (RadioButton)c;
+                    rb.Checked = false;
+                    rb.Enabled = false;
+                }
+
+            }
+        }
+        public static void controlEnable(Panel p)
+        {
+            foreach (Control c in p.Controls)
+            {
+                if (c is TextBox)
+                {
+                    TextBox tb = (TextBox)c;
+                    tb.Enabled = true;
+                }
+                if (c is ComboBox)
+                {
+                    ComboBox cb = (ComboBox)c;
+                    cb.Enabled = true;
+                }
+                if (c is CheckBox)
+                {
+                    CheckBox cb = (CheckBox)c;
+                    cb.Enabled = true;
+                }
+                if (c is RadioButton)
+                {
+                    RadioButton rb = (RadioButton)c;
+                    rb.Enabled = true;
+                }
+
+            }
+        }
+        public static void ControlDisable(Panel p)
+        {
+            foreach (Control c in p.Controls)
+            {
+                if (c is TextBox)
+                {
+                    TextBox tb = (TextBox)c;
+                    tb.Enabled = false;
+                }
+                if (c is ComboBox)
+                {
+                    ComboBox cb = (ComboBox)c;
+                    cb.Enabled = false;
+                }
+                if (c is CheckBox)
+                {
+                    CheckBox cb = (CheckBox)c;
+                    cb.Enabled = false;
+                }
+                if (c is RadioButton)
+                {
+                    RadioButton rb = (RadioButton)c;
+                    rb.Enabled = false;
+                }
+
+            }
+        }
     }
 }
