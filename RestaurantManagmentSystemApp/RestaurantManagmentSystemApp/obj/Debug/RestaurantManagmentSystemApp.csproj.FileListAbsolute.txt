@@ -14,3 +14,19 @@ D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\o
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Settings.resources
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Dashboard.resources
 D:\GHPLS\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Roles.resources
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\bin\Debug\RestaurantManagmentSystemApp.exe.config
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\bin\Debug\RestaurantManagmentSystemApp.exe
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\bin\Debug\RestaurantManagmentSystemApp.pdb
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.csprojAssemblyReference.cache
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Dashboard.resources
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Login.resources
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.MDI.resources
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Roles.resources
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.SampleForm.resources
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Properties.Resources.resources
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Sample2.resources
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.Settings.resources
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.csproj.GenerateResource.cache
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.csproj.CoreCompileInputs.cache
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.exe
+C:\Users\golam\Google Drive\Programming\C#\Project\RMS\RestaurantManagmentSystemApp\RestaurantManagmentSystemApp\obj\Debug\RestaurantManagmentSystemApp.pdb
